@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("bg-image.png");
+    background-position: center;
+}
+
+
+#header{
+    width:100%;
+    height:100vh;
+}
+
+nav{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    border-bottom:solid rgb(241, 59, 59);
+}
+
+nav ul li{
+    display:inline;
+    list-style: none;
+    margin:10px 20px;
+    color:white;
+    
+    
+}
+
+nav ul li a{
+    margin:10px 50px 0 100px;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color:rgb(241, 59, 59);  
+}
+
+.logo{
+    font-size: 50px;
+    font-family:'Caveat', cursive;
+}
+
+.logo span{
+    color:rgb(247, 75, 75);
+}
+
+.header-text pre{
+    margin:20px  0 0 220px;
+    font-size: 65px;
+    font-family:'Afacad', sans-serif ;
+}
+
+button{
+    background-color: red;
+    color:white;
+    border:solid white;
+    border-radius: 12px;
+    font-size: 30px;
+    margin:0 0 0 520px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color:black;  
+}
+
+.text2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 30px;
+    margin:30px 30px 5px 500px;
+    
+}
+
+.features1 h1{
+    margin-left:550px;
+    margin-top: 20px;
+    font-family:'Jost', sans-serif;
+    font-size: 60px;
+}
+
+.features1{
+    display:grid;
+    grid-template-columns: 250px 350px auto;
+    column-gap: 50px;
+    margin-top: 10px;
+    width:100%;
+    
+}
+
+.grid-item{
+    margin-top: 110px;
+    border:solid 3px black;
+    height: 300px;
+    width:300px;
+    border-radius: 12px;
+    text-align:center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 1000;
+    
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 20px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+.grid-item img{
+    height:200px;
+    width:200px;
+    margin-top: 10px;
+}
+
+.features2{
+    display:grid;
+    grid-template-columns: 430px 430px 100px;
+    column-gap: 50px;
+    margin-top: 0px;
+    width:100%;
+    left:100px;
+    margin:35px;
+    
+}
+
+.features2 p{
+    font-size:20px;
+}
+
+
+
+/*------------CSS for small screens----------*/
+
+@media only screen and (max-width:600px){
+
+    .header-text pre{
+        display: flex;
+        margin:20px  10px 10px 15px;
+        font-size: 25px;
+        font-family:'Afacad', sans-serif ;
+        justify-content: center;
+    } 
+
+    nav ul li{
+        display:inline;
+        list-style: none;
+        margin:0px 0px;
+        color:white;
+        
+        
+    }
+    
+    nav ul li a{
+        display: inline;
+        margin:10px 5px 0 10px;
+        position:relative;
+        font-family: 'Josefin Sans', sans-serif;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+    .logo{
+        font-size: 30px;
+        font-family:'Caveat', cursive;
+    }
+
+    button{
+        background-color: red;
+        color:white;
+        border:solid white;
+        border-radius: 12px;
+        font-size: 20px;
+        margin:10px 10px 10px 110px;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 10px;
+        cursor:pointer;
+    }
+    
+    .text2{
+        font-family: 'Prompt', sans-serif;
+        font-size: 15px;
+        margin:30px 30px 5px 120px;
+        
+    }
+
+    .features1 h1{
+        margin-left:140px;
+        margin-top: 20px;
+        font-family:'Jost', sans-serif;
+        font-size: 30px;
+    }
+    
+    .features1{
+        display:grid;
+        grid-template-columns: 30px 70px auto;
+        column-gap: 50px;
+        margin-top: 10px;
+        width:100%;
+        
+    }
+    
+    .grid-item{
+        margin-top: 100px;
+        border:solid 3px black;
+        height: 100px;
+        width:100px;
+        border-radius: 12px;
+        text-align:center;
+        align-items: center;
+        font-size: 10px;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-weight: 1000;
+        
+    }
+    
+    .grid-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 20px 20px 2px rgba(0, 0, 0, 0.25);
+    }
+    
+    
+    .grid-item img{
+        height:55px;
+        width:55px;
+        margin-top: 10px;
+    }
+    
+    .features2{
+        display:grid;
+        grid-template-columns: 60px 60px 50px;
+        margin-top: 0px;
+        width:100%;
+        
+    }
+
+    .features2 p{
+        font-size:8px;
+    }
+    
+    
+}
