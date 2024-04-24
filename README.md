@@ -25,6 +25,11 @@ A core function of landing pages is to collect contact information from visitors
 Landing pages should have a strong and clear call to action (CTA) that tells visitors exactly what you want them to do next. This could be signing up for a free trial, subscribing to a newsletter, or making a purchase. The CTA button should be prominent and visually appealing.
 
 
+# Screenshots:
+![Screenshot](https://github.com/piyushkumar-prog/OIBSIP-Level-1-Task-1-Landing_page/blob/main/screenshot-1.png)
+![Screenshot](https://github.com/piyushkumar-prog/OIBSIP-Level-1-Task-1-Landing_page/blob/main/screenshot-2.png)
+![Screenshot](https://github.com/piyushkumar-prog/OIBSIP-Level-1-Task-1-Landing_page/blob/main/screenshot-3.png)
+
 # Contributing:
 
 I encourage contributions to this project! Feel free to fork the repository, make improvements to the design or functionality, and submit a pull request for review and potential merging.
